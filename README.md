@@ -1,1 +1,3 @@
 # First-Order-Sliding-Mode-Control
+
+This code uses an RKF78 integrator to numerically simulate a missile engagement assuming the missile dynamics can be modelled with a simple first-order s-domain transfer function. The missile uses an adaptive sliding mode guidance law, derived from the Schwartz inequality, which dynamically updates the proportionality constant *N'* over the course of flight to compensate for the first-order lag. Acceleration command and miss distance plots are available, alongside delta-v expenditure and 3d engagement visualizations. Sample plots are provided as pngs, and additional pngs of zero-lag simulations are provided as a comparison.
